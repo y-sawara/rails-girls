@@ -17,6 +17,8 @@ group :production do
 end
 
 gem 'carrierwave'
+# 20200105 追加
+gem 'mini_magick'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
@@ -62,3 +64,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'devise'
+gem 'gravtastic'
